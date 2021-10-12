@@ -20,7 +20,7 @@ Please save them and adapt the structure of folders with our code.
 
 2) Self-supervised training:
 
-First update the config file according to your data paths.
+First update the config file.
 
 Use Spatial-Relative Transformer:
 >python main.py --train --test --svte --cartesian
@@ -30,7 +30,7 @@ Use Transformer:
 
 3) Detecting atypicality by pre-trained model:
 
-First update the config file according to your data paths and the saved model path.
+First update the config file.
 
 Use Spatial-Relative Transformer:
 >python main.py --atypical_test --svte --cartesian
